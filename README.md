@@ -1,5 +1,4 @@
 # Sign-Language-Recognition-Based-on-Deep-Learning
-# Project Title
 
 Simple overview of use/purpose.
 
