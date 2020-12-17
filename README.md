@@ -1,71 +1,37 @@
 # Sign-Language-Recognition-Based-on-Deep-Learning
 Jianian Wang 605627507
 
-## Abstract
+## Executive Summary
 Computer Vision has many interesting applications ranging from industrial applications to social applications. It has also been applied in many support for physically challenged people. For deaf- mute people, computer vision can generate English alphabets based on the sign language symbols. Our team aims to design a camera based sign language recognition system. By placing the camera in a fixed place, a user can performing sign in front of the camera, then the system will classify the sign language symbols using the Convolutional Neural Network (CNN). After successful training of the CNN model, the corresponding alphabet of a sign language symbol will be predicted.
 
-## Introduction
-### Background 
-Sign Language
-
-
-### Design Goals
+### Product
 The majority of the work is in installing the tools, data collection from the camera, data processing, and data analysis through Tensorflow CNN model. For hardware, we employ the Arduino nano 33 ble sense and Arducam Mini 2MP Plus camera module, which can be powered by the Arduino board’s power supply. For software, we focus on coding in Python/Tensoflow to build the Convolutional Neural Network model and output results to users. We will use the American Sign Language (ASL) data set for training and testing, which is provided by MNIST and it is publicly available at Kaggle.
 
 
-An in-depth paragraph about your project and overview of use.
+## Background 
+### Sign Language
+####  Introduction
+In the communicative hand gesture taxonomies, sign language (SL) is considered as the most organized and structured form out of various gesture categories. Sign language is an important means of communication among hearing impaired and deaf community[1]. Instead of using oral communication and sound patterns, signs in visual space are used by hearing impaired people for communication. The linguistic studies of sign language have started in 1970s [2]. It contains lingual information which includes different symbols and letters. Sign language symbols are able to indicate all the sign parameters that include hand shapes, movement, location and palm orientation.
 
-## Technical Background
+####  American Sign Language (ASL)
+American Sign Language (ASL) is a complete, natural language that has the same linguistic properties as spoken languages, with grammar that differs from English. ASL is expressed by movements of the hands and face. It is the primary language of many North Americans who are deaf and hard of hearing, and is used by many hearing people as well(Wikipedia).
 
-## System Design
+### Sign Language Recognition Using Deep Learning
+The flourishing of deep learning technology brings new opportunities for more accurate and real- time sign language recognition.While Neural Networks have been applied to ASL letter recognition in the past with accuracies that are consistently over 90% [3], many of them require a 3-D capture element with motion-tracking gloves or a Microsoft Kinect, and only one of them provides real-time classifications. The constraints imposed by the extra requirements reduce the scalability and feasibility of these solutions[4].
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-## Technical Approach
-### Hardware
-### Software
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+## Design Procedure
+### Hardware Implementation
+### Aruduino
+### Camera
 
-### Executing program
+### Software Implementation
+### Database
+### CNN Model
+#### Training And Testing
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+## Results
+## Strength and Weakness
+## Conclusion
+## Demo Video
+## Reference
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
