@@ -1,19 +1,29 @@
 # Sign-Language-Recognition-Based-on-Deep-Learning
 Jianian Wang 605627507
 
-## Description
+## Abstract
+Computer Vision has many interesting applications ranging from industrial applications to social applications. It has also been applied in many support for physically challenged people. For deaf- mute people, computer vision can generate English alphabets based on the sign language symbols. Our team aims to design a camera based sign language recognition system. By placing the camera in a fixed place, a user can performing sign in front of the camera, then the system will classify the sign language symbols using the Convolutional Neural Network (CNN). After successful training of the CNN model, the corresponding alphabet of a sign language symbol will be predicted.
+
+## Introduction
+### Background 
+Sign Language
+
+
+### Design Goals
+The majority of the work is in installing the tools, data collection from the camera, data processing, and data analysis through Tensorflow CNN model. For hardware, we employ the Arduino nano 33 ble sense and Arducam Mini 2MP Plus camera module, which can be powered by the Arduino board’s power supply. For software, we focus on coding in Python/Tensoflow to build the Convolutional Neural Network model and output results to users. We will use the American Sign Language (ASL) data set for training and testing, which is provided by MNIST and it is publicly available at Kaggle.
+
 
 An in-depth paragraph about your project and overview of use.
 
-## Getting Started
+## Technical Background
 
-### Dependencies
+## System Design
 
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
-
-### Installing
-
+## Technical Approach
+### Hardware
+### Software
 * How/where to download your program
 * Any modifications needed to be made to files/folders
 
