@@ -1,6 +1,5 @@
 # Sign-Language-Recognition-Based-on-Deep-Learning
-
-Simple overview of use/purpose.
+Jianian Wang 605627507
 
 ## Description
 
