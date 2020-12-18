@@ -55,6 +55,7 @@ After Augmenting the data, the training accuracy after 100 epochs is 93.5% and t
 ## Results
 ### Image Preprocessing
 Photos are captured by the camera and preprocessing to 28*28 pixels arrays. Below is a sample for the input gesture "C":
+![image](/Photo/array.png)
 ### CNN Model Prediction
 After trained model outputs the prediction reuslt as "3", indicating the third alphebic letter "C", which is what we expected:
 
