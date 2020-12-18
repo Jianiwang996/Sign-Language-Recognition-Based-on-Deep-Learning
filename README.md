@@ -23,7 +23,7 @@ The flourishing of deep learning technology brings new opportunities for more ac
 ### Hardware Implementation
 The first goal is the hardware implementation. After purchasing the Arduino nano 33 ble sense board and Arducam Mini 2MP Plus camera online, we need to connect the two parts manually by soldering. To ensure the functionalities of the camera, we will do simple testing through Arduino web editor.
 ### Aruduino
-
+![image](/Photo/Arduino.jpeg)
 ### Camera
 
 ### Software Implementation
@@ -37,7 +37,10 @@ The first goal is the hardware implementation. After purchasing the Arduino nano
 ## Demo Video
 ## Reference
 [1] Wadhawan, A., Kumar, P. Sign Language Recognition Systems: A Decade Systematic Literature Review. Arch Computat Methods Eng (2019). https://doi.org/10.1007/s11831-019-09384-2.
+
 [2] SBadhe PC, Kulkarni V (2015) Indian Sign Language translator using gesture recognition al- gorithm. In: Proceedings of IEEE international conference on computer graphics on vision and information security (CGVIS), Bhubaneshwar, India, pp 195–200c1.
+
 [3] Singha, J. and Das, K. “Hand Gesture Recognition Based on Karhunen-Loeve Transform”, Mo- bile and Embedded 232 Technology International Conference (MECON), January 17-18, 2013, India. 365-371.
+
 [4] R. Sharma et al. Recognition of Single Handed Sign Language Gestures using Contour Trac- ing descriptor. Proceedings of the World Congress on Engineering 2013 Vol. II, WCE 2013, July 3 - 5, 2013, London, U.K.
 
