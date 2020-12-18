@@ -38,10 +38,14 @@ The first goal is the hardware implementation. After purchasing the Arduino nano
 We will employ the American Sign Language (ASL) data set that is provided by MNIST and it is publicly available at Kaggle. This dataset contains 27455 training images and 7172 test images all with a shape of 28 x 28 pixels. These images belong to the 25 classes of English alphabet starting from A to Y. The dataset on Kaggle is available in the CSV format where training data has 27455 rows and 785 columns.
 
 ### CNN Model
+The input layer of the model will take images of size (28,28,1) where 28,28 are height and width of the image respectively while 1 represents the colour channel of the image for grayscale.
+The output layer of the model will have 26 neurons for 26 different letters, and the activation function will be softmax since it is a multiclass classification problem.
 #### Training And Testing
+After Augmenting the data, the training accuracy after 100 epochs is 93.5% and test accuracy is at around 97.8 %.
 
 ## Results
 ## Strength and Weakness
+Low effciencit, can not analysis consecutive movement.
 ## Demo Video
 ## Reference
 [1] Wadhawan, A., Kumar, P. Sign Language Recognition Systems: A Decade Systematic Literature Review. Arch Computat Methods Eng (2019). https://doi.org/10.1007/s11831-019-09384-2.
