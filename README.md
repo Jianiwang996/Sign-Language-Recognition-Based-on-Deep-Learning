@@ -20,6 +20,11 @@ American Sign Language (ASL) is a complete, natural language that has the same l
 The flourishing of deep learning technology brings new opportunities for more accurate and real- time sign language recognition.While Neural Networks have been applied to ASL letter recognition in the past with accuracies that are consistently over 90% [3], many of them require a 3-D capture element with motion-tracking gloves or a Microsoft Kinect, and only one of them provides real-time classifications. The constraints imposed by the extra requirements reduce the scalability and feasibility of these solutions[4].
 
 ## Design Procedure
+### Design Overview
+By placing the camera in a fixed place, a user can perform a sign in front of the camera, then the system will classify the sign language symbols using the Convolutional Neural Network (CNN). After successful training of the CNN model, the corresponding alphabet of a sign language symbol will be predicted. Below is a diagram for the overall design:
+![image](/Photo/diagram.png)
+Image data is represented as an array of pixel values. Our camera modules can return images in a variety of resolutions, so we need to ensure they are resized to 28 × 28 pixels. We also need to convert full-color images to grayscale so that they work with the model. 
+
 ### Hardware Implementation
 The first goal is the hardware implementation. After purchasing the Arduino nano 33 ble sense board and Arducam Mini 2MP Plus camera online, we need to connect the two parts manually by soldering. To ensure the functionalities of the camera, we will do simple testing through Arduino web editor.
 
