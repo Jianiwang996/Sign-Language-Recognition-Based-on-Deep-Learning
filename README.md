@@ -34,12 +34,13 @@ The first goal is the hardware implementation. After purchasing the Arduino nano
 
 ### Software Implementation
 ### Database
+We will employ the American Sign Language (ASL) data set that is provided by MNIST and it is publicly available at Kaggle. This dataset contains 27455 training images and 7172 test images all with a shape of 28 x 28 pixels. These images belong to the 25 classes of English alphabet starting from A to Y. The dataset on Kaggle is available in the CSV format where training data has 27455 rows and 785 columns.
+
 ### CNN Model
 #### Training And Testing
 
 ## Results
 ## Strength and Weakness
-## Conclusion
 ## Demo Video
 ## Reference
 [1] Wadhawan, A., Kumar, P. Sign Language Recognition Systems: A Decade Systematic Literature Review. Arch Computat Methods Eng (2019). https://doi.org/10.1007/s11831-019-09384-2.
