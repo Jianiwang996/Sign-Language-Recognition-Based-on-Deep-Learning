@@ -23,6 +23,7 @@ The flourishing of deep learning technology brings new opportunities for more ac
 ### Design Overview
 By placing the camera in a fixed place, a user can perform a sign in front of the camera, then the system will classify the sign language symbols using the Convolutional Neural Network (CNN). After successful training of the CNN model, the corresponding alphabet of a sign language symbol will be predicted. Below is a diagram for the overall design:
 ![image](/Photo/diagram.png)
+
 Image data is represented as an array of pixel values. Our camera modules can return images in a variety of resolutions, so we need to ensure they are resized to 28 × 28 pixels. We also need to convert full-color images to grayscale so that they work with the model. 
 
 ### Hardware Implementation
