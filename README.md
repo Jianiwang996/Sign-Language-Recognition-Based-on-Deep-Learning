@@ -39,7 +39,9 @@ We will employ the American Sign Language (ASL) data set that is provided by MNI
 
 ### CNN Model
 The input layer of the model will take images of size (28,28,1) where 28,28 are height and width of the image respectively while 1 represents the colour channel of the image for grayscale.
-The output layer of the model will have 26 neurons for 26 different letters, and the activation function will be softmax since it is a multiclass classification problem.
+The output layer of the model will have 26 neurons for 26 different letters, and the activation function will be softmax since it is a multiclass classification problem. Below is a data sample from the the Kaggle MNIST dataset:
+![image](/Photo/Data.png)
+
 #### Training And Testing
 After Augmenting the data, the training accuracy after 100 epochs is 93.5% and test accuracy is at around 97.8 %.
 
