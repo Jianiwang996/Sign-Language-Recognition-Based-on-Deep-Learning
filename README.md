@@ -22,12 +22,19 @@ The flourishing of deep learning technology brings new opportunities for more ac
 ## Design Procedure
 ### Hardware Implementation
 The first goal is the hardware implementation. After purchasing the Arduino nano 33 ble sense board and Arducam Mini 2MP Plus camera online, we need to connect the two parts manually by soldering. To ensure the functionalities of the camera, we will do simple testing through Arduino web editor.
+
 ### Aruduino
 ![image](/Photo/Arduino.jpeg)
+
 ### Arducam Mini
 ![image](/Photo/Camera.jpeg)
+
 The Pin Connection graph is captured from the Arducam datasheet:
 ![image](/Photo/PIN_Connection.png)
+
+### BreadBoard Circuit
+![image](/Photo/Board.jpeg)
+
 ### Software Implementation
 ### Database
 ### CNN Model
