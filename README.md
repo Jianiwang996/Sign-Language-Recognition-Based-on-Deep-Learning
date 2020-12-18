@@ -29,9 +29,6 @@ The first goal is the hardware implementation. After purchasing the Arduino nano
 ### Arducam Mini
 ![image](/Photo/Camera.jpeg)
 
-The Pin Connection graph is captured from the Arducam datasheet:
-![image](/Photo/PIN_Connection.png)
-
 ### BreadBoard Circuit
 ![image](/Photo/Board.jpeg)
 
