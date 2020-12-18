@@ -53,9 +53,16 @@ The output layer of the model will have 26 neurons for 26 different letters, and
 After Augmenting the data, the training accuracy after 100 epochs is 93.5% and test accuracy is at around 97.8 %.
 
 ## Results
+### Image Preprocessing
+Photos are captured by the camera and preprocessing to 28*28 pixels arrays. Below is a sample for the input gesture "C":
+### CNN Model Prediction
+After trained model outputs the prediction reuslt as "3", indicating the third alphebic letter "C", which is what we expected:
+
 ## Strength and Weakness
-Low effciencit, can not analysis consecutive movement.
-## Demo Video
+The system's strength is that the system can predict a single letter with high accuracy. Based on the built CNN model, a user can try various training databases to achieve different design goals.
+
+There are aspects of the system that need to improve. For example, the background of the image can cause preprocessing noise, which attenuates the prediction accuracy. The efficency of the prediction is low and cannot process concurrent or consecutive gesture inputs.
+
 ## Reference
 [1] Wadhawan, A., Kumar, P. Sign Language Recognition Systems: A Decade Systematic Literature Review. Arch Computat Methods Eng (2019). https://doi.org/10.1007/s11831-019-09384-2.
 
