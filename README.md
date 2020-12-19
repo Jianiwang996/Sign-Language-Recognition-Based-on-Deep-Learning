@@ -58,7 +58,7 @@ Photos are captured by the camera and preprocessing to 28*28 pixels arrays. Belo
 ![image](/Photo/array.png)
 ### CNN Model Prediction
 After trained model outputs the prediction reuslt as "3", indicating the third alphebic letter "C", which is what we expected:
-
+![image](/Photo/result.png)
 ## Strength and Weakness
 The system's strength is that the system can predict a single letter with high accuracy. Based on the built CNN model, a user can try various training databases to achieve different design goals.
 
